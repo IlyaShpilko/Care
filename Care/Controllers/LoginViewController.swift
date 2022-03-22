@@ -36,16 +36,16 @@ class LoginViewController: UIViewController {
     @objc func registrationViewController() {
         guard login.login == loginView.emailTextField.text,
               login.password == loginView.passwordTextField.text else {
-                  loginView.loginButton.shake()
-                  return
-              }
+            loginView.loginButton.shake()
+            return
+        }
         
         let vc = RegistrationViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     
-
-
+    
+    
     
     // MARK: - Touch Methods
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

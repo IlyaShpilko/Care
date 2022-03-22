@@ -8,7 +8,7 @@
 import UIKit
 
 class RegistrationViewController: UIViewController {
-
+    
     // MARK: - Properties
     let registrationView = RegistrationView()
     

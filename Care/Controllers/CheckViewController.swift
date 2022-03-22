@@ -8,7 +8,7 @@
 import UIKit
 
 class CheckViewController: UIViewController {
-            
+    
     // MARK: - Properties
     let checkView = CheckView()
     let model = OrderModel()
